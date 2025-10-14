@@ -54,4 +54,14 @@ counter()
 
 // a:1, b:2 | b:2,c:3 | c:5, d:6
 
-let a=1, b=2, c=3
+// let a=1, b=2, c=3
+
+
+// 
+let store = []
+for(let i = 99; i >= 1; i--){
+    if(i % 2 != 0){
+        store.push(i)
+    }
+}
+console.log(store)
