@@ -1,9 +1,12 @@
 // Importing functions from math.js
+import { calculator } from "./03_test.js"
 // import { add,subtract } from "./01_math.mjs"
 
-import greet, {add, subtract} from "./02_utils.mjs"
+//import greet, {add, subtract} from "./02_utils.mjs"
 
-console.log(add(3,5))
-console.log(subtract(50,25))
+// console.log(add(3,5))
+// console.log(subtract(50,25))
 
-greet("RAJ")
+// greet("RAJ")
+
+console.log(calculator(10,5))

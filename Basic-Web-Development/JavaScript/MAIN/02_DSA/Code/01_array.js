@@ -31,7 +31,7 @@ console.log(typeof arr)
 
 let breakFast = ['cookies', 'banana', 'milk']
 console.log(breakFast[3])
-console.log(breakFast['banana'])
+console.log(breakFast.indexOf('banana'))
 
 //* ======================================
 //*  Modifying Elements:
@@ -65,11 +65,13 @@ console.log(place)
 
 //? 3: unshift(): Method that adds one or more elements to the beginning of an array.
 
-place
+place.unshift("CHANDAKA")
+console.log(place)
 
 //? 4: shift(): Method that removes the first element from an array.
 
-
+place.shift()
+console.log(place)
 
 //* =============================================
 //*  Array Traversal / Iterating Over Arrays
