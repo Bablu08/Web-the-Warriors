@@ -11,6 +11,7 @@ This repository contains my learning and projects related to web development, fr
    - [HTML](Basic-Web-Development/HTML)
    - [CSS](Basic-Web-Development/CSS)
    - [JavaScript](Basic-Web-Development/JavaScript)
+   - [PHP](Basic-Web-Development/PHP)
 
 2. **Frontend Frameworks & Libraries**
    - [React](Frontend-Frameworks-Libraries/React)
