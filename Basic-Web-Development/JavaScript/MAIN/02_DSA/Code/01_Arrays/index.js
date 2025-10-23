@@ -28,4 +28,4 @@ console.log("\nSmallest Element:");
 findSmallest(arr);
 
 console.log("\nLinear Search (find 33):");
-linearSearch(arr, 56);
+linearSearch(arr, 33);
