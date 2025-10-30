@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changeColor(){
+             // Get the <h1> element
+            let heading = document.getElementById('myHeading');
+
+            // heading.innerHTML = "Thanks, for clicking";
+
+            // Change its color (you can choose any color)
+            heading.style.color = "red";
+        }
+    </script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .nav-bar{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                padding: 0rem 2rem;
+                height: 10vh;
+
+                & .brand-logo{
+                    text-transform: uppercase;
+                }
+
+                & .link-btn{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 1rem;
+
+                    & a{
+                        text-transform: capitalize;
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+        }
+
+        .hero-section{
+            height: 90vh;
+            width: 100vw;
+            /* background-color: black; */
+        }
+    </style>
+</head>
+<body>
+    <head>
+        <nav class="nav-bar">
+            <div class="brand-logo">
+                <h3>material</h3>
+            </div>
+            <div class="link-btn">
+                <a href="">about me</a>
+                <!-- <a href=""></a> -->
+                <a href="">portfolio</a>
+                <a href="">team</a>
+                <!-- <a href=""></a> -->
+                <a href="">blog</a>
+                <a href="">contact</a>
+            </div>
+        </nav>
+    </head>
+    <section class="hero-section">
+        
+        <div class="main-containt">
+            <h1 id="myHeading">Hi! i'm jone doe</h1>
+            <p>Leading designer from dhaka bangladesh</p>
+            <button onclick="changeColor()">Click Me</button>
+        </div>
+    </section>
+</body>
+</html>
