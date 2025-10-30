@@ -1,0 +1,19 @@
+.box {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  background-color: lightgreen;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 10px;
+}
+
+#btn {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Hide the paragraph temporarily */
+.text {
+  visibility: hidden;
+}
