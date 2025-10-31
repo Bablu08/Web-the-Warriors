@@ -4,24 +4,24 @@
 }
 
 /* Element Selector */
-h1 {
-  color: royalblue;
+h1{
+  text-align: center;
+  color: blueviolet;
 }
 
 /* Class Selector */
-.text {
-  color: green;
+.text{
+  color: coral;
 }
 
 /* ID Selector */
-#btn {
-  background-color: orange;
-  color: white;
-  border: none;
-  padding: 10px;
+#selectors{
+  height: 100vh;
+  width: 100vw;
+  /* text-align: center; */
 }
 
 /* Group Selector */
-h1, p {
+h1, p{
   text-align: center;
 }
