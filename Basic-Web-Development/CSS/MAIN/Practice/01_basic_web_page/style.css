@@ -72,7 +72,7 @@ nav a:hover{
 .hero{
     position: relative;
     height: 100vh;
-    background: linear-gradient(180deg, );
+    background: linear-gradient(to right, #00a1ff, #00ff8f);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,4 +134,80 @@ nav a:hover{
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
+}
+
+.floating-icons{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+.floating-icons i{
+    font-size: 36px;
+    color: white;
+}
+
+.icon-1{
+    top: 20%;
+    left: 10%;
+}
+
+.icon-2{
+    top: 60%;
+    right: 15%;
+}
+
+.icon-3{
+    bottom: 15%;
+    left: 20%;
+}
+
+/* freatures sections */
+.features{
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.features h1{
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    background: white;
+    padding: 40px 30px;
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+
+    position: relative;
+    flex: 1;
+    
 }
