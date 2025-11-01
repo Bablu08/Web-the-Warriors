@@ -69,6 +69,8 @@ nav a:hover{
     background: rgba(255, 255, 255, 0.2);
 }
 
+/* Main Section */
+
 .hero{
     position: relative;
     height: 100vh;
@@ -77,6 +79,16 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+}
+
+.hero h1{
+    text-transform: capitalize;
+    color: white;
+}
+
+.hero p{
+    text-transform: lowercase;
+    color: white;
 }
 
 .overlay{
@@ -184,6 +196,7 @@ nav a:hover{
 .features h1{
     font-size: 42px;
     margin-bottom: 50px;
+    text-transform: capitalize;
 }
 
 .container{
@@ -209,5 +222,44 @@ nav a:hover{
 
     position: relative;
     flex: 1;
-    
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.featur-logo{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    background: linear-gradient(135deg, #667eea, #674ba2);
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featur-logo i{
+    font-size: 36px;
+    color: white;
+}
+
+.card h2{
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.card p{
+    margin-bottom: 14px;
 }
