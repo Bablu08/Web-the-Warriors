@@ -1,0 +1,93 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    overflow-x: hidden;
+    line-height: 1.6;
+    
+}
+
+.category{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F7F4EB;
+    position: relative;
+}
+
+/* header  */
+.category-header {
+    text-align: center;
+    /* margin-bottom: 2rem; */
+}
+
+.category-header h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.category-header .shop-all {
+    display: inline-block;
+    margin-top: 5px;
+    color: black;
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
+/* end-header */
+
+.category-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.link-container{
+    /* align-items: center; */
+    justify-items: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.7rem;
+    width: 3.7rem;
+    background-color: #EDE9DD;
+    /*padding: 15px;
+    */border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.icon img{
+    height: 25px;
+    width: auto;
+}
+
+.link-container p{
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+    font-size: small;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.category-navbar a:hover{
+    .icon{
+        border: 2px solid #444;
+    }
+    p{
+        text-decoration: underline;
+    }
+}
